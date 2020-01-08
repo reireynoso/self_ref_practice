@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.destroy_all
+
+blah = User.create(username: 'blah')
+who = User.create(username: 'who')
+what = User.create(username: 'what')
+when_is_a_reserved_word_in_rails = User.create(username: 'when')
+where = User.create(username: 'where')
+whomst = User.create(username: 'whomst')
+
+byebug
+
+puts 'seeded'
