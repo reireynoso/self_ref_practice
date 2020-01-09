@@ -8,6 +8,7 @@
 
 User.destroy_all
 Follow.destroy_all
+Message.destroy_all
 
 blah = User.create(username: 'blah')
 who = User.create(username: 'who')
