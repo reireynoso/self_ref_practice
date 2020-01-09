@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.destroy_all
+Follow.destroy_all
 
 blah = User.create(username: 'blah')
 who = User.create(username: 'who')
@@ -15,6 +16,6 @@ when_is_a_reserved_word_in_rails = User.create(username: 'when')
 where = User.create(username: 'where')
 whomst = User.create(username: 'whomst')
 
-byebug
+# byebug
 
 puts 'seeded'
